@@ -29,7 +29,7 @@ const LatestTrends = () => {
           {/* discover */}
           <div className="flex flex-col justify-center items-center gap-4 mt-10">
             <h3 className="font-normal text-d-color font-lexend text-xl">Discover more cool restaurants</h3>
-            <Button label="Show more" className="font-normal text-white font-roboto text-base rounded-full py-2 md:py-2 md:text-lg" />
+            <Button label="Show more" className="hover:bg-d-color font-normal text-white font-roboto text-base rounded-full py-2 md:py-2 md:text-lg" />
           </div>
         </Container>
       </div>
