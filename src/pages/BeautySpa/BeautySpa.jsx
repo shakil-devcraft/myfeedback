@@ -1,9 +1,12 @@
+import Container from "../../components/shared/Container/Container";
 
 const BeautySpa = () => {
     return (
-        <div>
-            BeautySpa
-        </div>
+        <section>
+            <Container>
+                BeautySpa
+            </Container>
+        </section>
     );
 };
 

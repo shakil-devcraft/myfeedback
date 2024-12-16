@@ -1,9 +1,12 @@
+import Container from "../../components/shared/Container/Container";
 
 const CarLocation = () => {
     return (
-        <div>
+        <section>
+            <Container>
             CarLocation
-        </div>
+            </Container>
+        </section>
     );
 };
 

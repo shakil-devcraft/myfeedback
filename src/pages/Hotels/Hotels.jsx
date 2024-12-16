@@ -1,9 +1,12 @@
+import Container from "../../components/shared/Container/Container";
 
 const Hotels = () => {
     return (
-        <div>
+        <section>
+            <Container>
             Hotels
-        </div>
+            </Container>
+        </section>
     );
 };
 

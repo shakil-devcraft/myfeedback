@@ -1,9 +1,12 @@
+import Container from "../../components/shared/Container/Container";
 
 const CarWash = () => {
     return (
-        <div>
+        <section>
+            <Container>
             CarWash
-        </div>
+            </Container>
+        </section>
     );
 };
 

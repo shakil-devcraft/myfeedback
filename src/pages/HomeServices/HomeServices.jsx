@@ -1,9 +1,12 @@
+import Container from "../../components/shared/Container/Container";
 
 const HomeServices = () => {
     return (
-        <div>
+        <section>
+            <Container>
             HomeServices
-        </div>
+            </Container>
+        </section>
     );
 };
 

@@ -1,9 +1,12 @@
+import Container from "../../components/shared/Container/Container";
 
 const Gyms = () => {
     return (
-        <div>
+        <section>
+            <Container>
             Gyms
-        </div>
+            </Container>
+        </section>
     );
 };
 

@@ -1,9 +1,12 @@
+import Container from "../../components/shared/Container/Container";
 
 const Shopping = () => {
     return (
-        <div>
+        <section>
+            <Container>
             Shopping
-        </div>
+            </Container>
+        </section>
     );
 };
 

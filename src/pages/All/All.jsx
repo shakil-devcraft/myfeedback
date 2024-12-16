@@ -1,9 +1,12 @@
+import Container from "../../components/shared/Container/Container";
 
 const All = () => {
     return (
-        <div>
-            <h1>All</h1>
-        </div>
+        <section>
+            <Container>
+                Home
+            </Container>
+        </section>
     );
 };
 

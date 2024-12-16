@@ -1,9 +1,12 @@
+import Container from "../../components/shared/Container/Container";
 
 const Bars = () => {
     return (
-        <div>
-            Bars
-        </div>
+        <section>
+            <Container>
+                Bars
+            </Container>
+        </section>
     );
 };
 

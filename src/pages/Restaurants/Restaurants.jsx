@@ -1,9 +1,12 @@
+import Container from "../../components/shared/Container/Container";
 
 const Restaurants = () => {
     return (
-        <div>
+        <section>
+            <Container>
             Restaurants
-        </div>
+            </Container>
+        </section>
     );
 };
 
