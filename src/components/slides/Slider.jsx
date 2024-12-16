@@ -1,7 +1,7 @@
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-import Card from "../shared/SlideCardOne";
+import Card from "../shared/Card";
 import { RestaurantsData } from "../../api";
 
 const SliderComponent = () => {
@@ -15,7 +15,7 @@ const SliderComponent = () => {
       {
         breakpoint: 1024, // Large devices
         settings: {
-          slidesToShow: 3,
+          slidesToShow: 2,
           slidesToScroll: 1,
         },
       },
@@ -42,16 +42,16 @@ const SliderComponent = () => {
         Find the best restaurant ratings below
       </h2>
       <Slider {...settings}>
-        {RestaurantsData.map((item) => (
-          <Card
-            key={item?.id}
-            image={item?.image}
-            title={item?.title}
-            description={item?.description}
-            rating={item?.rating}
-            views={item?.views}
-          />
-        ))}
+          {RestaurantsData.map((item) => (
+              <Card
+              key={item?.id}
+              image={item?.image}
+              title={item?.title}
+              description={item?.description}
+              rating={item?.rating}
+              views={item?.views}
+            />
+          ))}
       </Slider>
     </section>
   );

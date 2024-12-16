@@ -2,14 +2,14 @@ import clsx from "clsx";
 import { twMerge } from "tailwind-merge";
 import PropTypes from "prop-types";
 
-const Card = ({ image, title, description, rating, views }) => {
+const SimpleCard = ({ image, title, description, rating, views}) => {
   return (
-    <div className={twMerge(clsx("px-3 lg:p-4"))}>
+    <div className={twMerge(clsx())}>
       <div
         className={twMerge(
           clsx(
             "rounded-lg shadow-md overflow-hidden bg-white",
-            "flex flex-col justify-between h-full"
+            "flex flex-col justify-between h-full",
           )
         )}
       >
@@ -18,7 +18,7 @@ const Card = ({ image, title, description, rating, views }) => {
           alt={title}
           className="w-full h-[213px] object-cover rounded-t-lg"
         />
-        <div className="px-3 lg:p-4 text-l-color">
+        <div className="px-3 p-4 text-l-color">
           <h3 className="font-semibold text-d-color font-lexend text-lg mb-1">{title}</h3>
           <p className="text-l-color font-roboto font-normal text-sm">{description}</p>
           <div className="flex items-center mt-3 gap-2">
@@ -30,9 +30,9 @@ const Card = ({ image, title, description, rating, views }) => {
             </div>
             {/* <span className="text-sm font-bold font-lexend text-d-color ml-2">{`${rating} <span>(${views})</span>`}</span> */}
             {
-              <div className="flex gap-1">
+              <div className="flex items-center gap-1">
                 <span className="text-d-color font-lexend font-bold">{rating}</span>
-                <span>({views})</span>
+                <span className="text-sm">({views})</span>
               </div>
             }
           </div>
@@ -42,7 +42,7 @@ const Card = ({ image, title, description, rating, views }) => {
   );
 };
 
-Card.propTypes = {
+SimpleCard.propTypes = {
   image: PropTypes.string.isRequired,
   title: PropTypes.string.isRequired,
   description: PropTypes.string.isRequired,
@@ -50,4 +50,4 @@ Card.propTypes = {
   views: PropTypes.string.isRequired,
 };
 
-export default Card;
+export default SimpleCard;

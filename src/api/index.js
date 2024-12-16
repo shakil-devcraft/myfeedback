@@ -52,13 +52,117 @@ export const RestaurantsData = [
       description: "The lorem ipsum is, in printing, a series of meaningless words used temporarily to calibrate a layout.",
       rating: "5.0",
       views: "876 reviews"
+    }
+];
+
+
+// latest trends data
+export const latestTrends = [
+    {
+      id: 1,
+      //   image: "https://via.placeholder.com/300x200",
+      image: "/img/slider-card1.png",
+      title: "Bottega",
+      description: "The lorem ipsum is, in printing, a series of meaningless words used temporarily to calibrate a layout.",
+      rating: "5.0",
+      views: "876 reviews"
+    },
+    {
+      id: 2,
+      //   image: "https://via.placeholder.com/300x200",
+      image: "/img/slider-card2.png",
+      title: "Bottega",
+      description: "The lorem ipsum is, in printing, a series of meaningless words used temporarily to calibrate a layout.",
+      rating: "5.0",
+      views: "876 reviews"
+    },
+    {
+      id: 3,
+      //   image: "https://via.placeholder.com/300x200",
+      image: "/img/slider-card2.png",
+      title: "Bottega",
+      description: "The lorem ipsum is, in printing, a series of meaningless words used temporarily to calibrate a layout.",
+      rating: "5.0",
+      views: "876 reviews"
+    },
+    {
+      id: 4,
+      //   image: "https://via.placeholder.com/300x200",
+      image: "/img/slider-card3.png",
+      title: "Bottega",
+      description: "The lorem ipsum is, in printing, a series of meaningless words used temporarily to calibrate a layout.",
+      rating: "5.0",
+      views: "876 reviews"
     },
     {
       id: 5,
       //   image: "https://via.placeholder.com/300x200",
-      image: "/img/slider-card4.png",
+      image: "/img/slider-card1.png",
       title: "Bottega",
-      description: "The lorem ipsum is in printing...",
+      description: "The lorem ipsum is, in printing, a series of meaningless words used temporarily to calibrate a layout.",
+      rating: "5.0",
+      views: "876 reviews"
+    },
+    {
+      id: 6,
+      //   image: "https://via.placeholder.com/300x200",
+      image: "/img/slider-card2.png",
+      title: "Bottega",
+      description: "The lorem ipsum is, in printing, a series of meaningless words used temporarily to calibrate a layout.",
+      rating: "5.0",
+      views: "876 reviews"
+    },
+    {
+      id: 7,
+      //   image: "https://via.placeholder.com/300x200",
+      image: "/img/slider-card2.png",
+      title: "Bottega",
+      description: "The lorem ipsum is, in printing, a series of meaningless words used temporarily to calibrate a layout.",
+      rating: "5.0",
+      views: "876 reviews"
+    },
+    {
+      id: 8,
+      //   image: "https://via.placeholder.com/300x200",
+      image: "/img/slider-card3.png",
+      title: "Bottega",
+      description: "The lorem ipsum is, in printing, a series of meaningless words used temporarily to calibrate a layout.",
+      rating: "5.0",
+      views: "876 reviews"
+    },
+    {
+      id: 9,
+      //   image: "https://via.placeholder.com/300x200",
+      image: "/img/slider-card1.png",
+      title: "Bottega",
+      description: "The lorem ipsum is, in printing, a series of meaningless words used temporarily to calibrate a layout.",
+      rating: "5.0",
+      views: "876 reviews"
+    },
+    {
+      id: 10,
+      //   image: "https://via.placeholder.com/300x200",
+      image: "/img/slider-card2.png",
+      title: "Bottega",
+      description: "The lorem ipsum is, in printing, a series of meaningless words used temporarily to calibrate a layout.",
+      rating: "5.0",
+      views: "876 reviews"
+    },
+    {
+      id: 11,
+      //   image: "https://via.placeholder.com/300x200",
+      image: "/img/slider-card2.png",
+      title: "Bottega",
+      description: "The lorem ipsum is, in printing, a series of meaningless words used temporarily to calibrate a layout.",
+      rating: "5.0",
+      views: "876 reviews"
+    },
+    {
+      id: 12,
+      //   image: "https://via.placeholder.com/300x200",
+      image: "/img/slider-card3.png",
+      title: "Bottega",
+      description: "The lorem ipsum is, in printing, a series of meaningless words used temporarily to calibrate a layout.",
       rating: "5.0",
       views: "876 reviews"
     },
