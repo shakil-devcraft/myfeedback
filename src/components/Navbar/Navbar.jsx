@@ -1,10 +1,10 @@
-import { navItems } from "../../api";
+// import { navItems } from "../../api";
 import Container from "../shared/Container/Container";
 import NavItem from "./NavItem";
 
 const Navbar = () => {
   return (
-    <nav className="fixed w-full top-0 z-50 shadow bg-white">
+    <nav className="w-full z-50 shadow bg-white">
       <div className="border-b">
         <Container>
           {/* Top Navbar */}
@@ -43,7 +43,7 @@ const Navbar = () => {
         </Container>
       </div>
       {/* Bottom Navbar */}
-      <section>
+      {/* <section>
         <Container>
           <div className="grid grid-cols-3 md:grid-cols-6 lg:grid-cols-12 gap-6 lg:gap-2 justify-center items-center text-center py-3">
             {navItems?.map((item, index) => (
@@ -55,6 +55,13 @@ const Navbar = () => {
               />
             ))}
           </div>
+        </Container>
+      </section> */}
+
+      {/* Bottom Navbar */}
+      <section>
+        <Container>
+            <NavItem />
         </Container>
       </section>
     </nav>
