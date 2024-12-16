@@ -6,22 +6,26 @@ import { NavLink } from "react-router-dom";
 const NavItem = ({ label, img, link }) => {
   // console.log(link);
   return (
-    <NavLink
-      to={link}
-      className={({ isActive }) =>
-        twMerge(
-          clsx(
-            "flex flex-col items-center justify-center px-4 py-2 text-sm font-medium",
-            isActive
-              ? "text-blue-500 border-b-2 border-blue-500"
-              : "text-gray-500"
-          )
-        )
-      }
-    >
-      <img src={img} alt="" />
-      <span>{label}</span>
-    </NavLink>
+    <section>
+      <div>
+          <NavLink
+            to={link}
+            className={({ isActive }) =>
+              twMerge(
+                clsx(
+                  "flex flex-col gap-5 pb-2 text-sm font-medium",
+                  isActive
+                    ? "text-b-color border-b-2 border-b-color"
+                    : "text-l-color"
+                )
+              )
+            }
+          >
+            <img className="mx-auto" src={img} alt="" />
+            <span>{label}</span>
+          </NavLink>
+      </div>
+    </section>
   );
 };
 
