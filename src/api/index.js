@@ -22,7 +22,7 @@ export const RestaurantsData = [
       //   image: "https://via.placeholder.com/300x200",
       image: "/img/slider-card1.png",
       title: "Bottega",
-      description: "The lorem ipsum is in printing...",
+      description: "The lorem ipsum is, in printing, a series of meaningless words used temporarily to calibrate a layout.",
       rating: "5.0",
       views: "876 reviews"
     },
@@ -31,7 +31,7 @@ export const RestaurantsData = [
       //   image: "https://via.placeholder.com/300x200",
       image: "/img/slider-card2.png",
       title: "Bottega",
-      description: "The lorem ipsum is in printing...",
+      description: "The lorem ipsum is, in printing, a series of meaningless words used temporarily to calibrate a layout.",
       rating: "5.0",
       views: "876 reviews"
     },
@@ -40,7 +40,7 @@ export const RestaurantsData = [
       //   image: "https://via.placeholder.com/300x200",
       image: "/img/slider-card2.png",
       title: "Bottega",
-      description: "The lorem ipsum is in printing...",
+      description: "The lorem ipsum is, in printing, a series of meaningless words used temporarily to calibrate a layout.",
       rating: "5.0",
       views: "876 reviews"
     },
@@ -49,7 +49,7 @@ export const RestaurantsData = [
       //   image: "https://via.placeholder.com/300x200",
       image: "/img/slider-card3.png",
       title: "Bottega",
-      description: "The lorem ipsum is in printing...",
+      description: "The lorem ipsum is, in printing, a series of meaningless words used temporarily to calibrate a layout.",
       rating: "5.0",
       views: "876 reviews"
     },
@@ -62,4 +62,7 @@ export const RestaurantsData = [
       rating: "5.0",
       views: "876 reviews"
     },
-  ];
+];
+
+
+
