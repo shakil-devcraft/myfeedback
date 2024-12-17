@@ -1,11 +1,9 @@
-import Container from "../../components/shared/Container/Container";
+import BellaItalia from "../BellaItalia/BellaItalia";
 
 const Hotels = () => {
     return (
         <section>
-            <Container>
-            Hotels
-            </Container>
+            <BellaItalia />
         </section>
     );
 };
