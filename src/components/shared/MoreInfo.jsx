@@ -6,8 +6,8 @@ const MoreInfo = () => {
             <Container>
                 <div className="grid grid-cols-1 sm:grid-cols-2 items-center py-20 gap-4 sm:gap-6">
                     <div>
-                        <h2 className="font-semibold text-d-color text-3xl">More informations</h2>
-                        <div className="mt-6 mb-4 flex flex-col gap-4">
+                        <h2 className="font-semibold text-d-color text-2xl lg:text-3xl">More informations</h2>
+                        <div className="mt-6 mb-4 flex flex-col gap-3 lg:gap-4">
                             <div className="flex gap-2 items-center text-d-color text-lg font-normal font-roboto">
                                 <i className='bx bx-knife' ></i>
                                 <p>See the menu</p>
@@ -29,15 +29,15 @@ const MoreInfo = () => {
                                 <p>www.bellaitalia.com</p>
                             </div>
                         </div>
-                        <div className="flex gap-2 text-d-color text-4xl">
+                        <div className="flex gap-2 text-d-color text-3xl lg:text-4xl">
                             <i className='bx bxl-facebook-circle' ></i>
                             <i className='bx bxl-instagram-alt' ></i>
                             <i className='bx bxl-tiktok' ></i>
                             <i className='bx bxl-whatsapp' ></i>
                         </div>
                     </div>
-                    <div>
-                        <img src="/img/map2.png" alt="" />
+                    <div className="flex items-center mx-auto">
+                        <img className="h-full" src="/img/map2.png" alt="" />
                     </div>
                 </div>
             </Container>
