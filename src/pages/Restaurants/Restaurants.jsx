@@ -2,6 +2,7 @@ import Container from "../../components/shared/Container/Container";
 import SliderComponent from "../../components/slides/Slider";
 import LatestTrends from "./LatestTrends";
 import MyFeedBack from "./MyFeedBack";
+import RecentsActivities from "./RecentsActivities";
 
 const Restaurants = () => {
   return (
@@ -13,6 +14,7 @@ const Restaurants = () => {
       </div>
       <LatestTrends />
       <MyFeedBack />
+      <RecentsActivities />
     </section>
   );
 };
