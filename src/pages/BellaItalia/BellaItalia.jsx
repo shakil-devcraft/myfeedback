@@ -4,6 +4,7 @@ import BellaFilter from "../../components/shared/BellaFilter";
 import Container from "../../components/shared/Container/Container";
 import Gallerys from "../../components/shared/Gallerys";
 import MoreInfo from "../../components/shared/MoreInfo";
+import RatingSec from "../../components/shared/RatingSec";
 import backgroundImage from "/img/bella-bg.png";
 
 const BellaItalia = () => {
@@ -77,6 +78,7 @@ const BellaItalia = () => {
       </div>
       <Gallerys />
       <MoreInfo />
+      <RatingSec />
       <BellaFilter />
       <BellaCart />
       <AlsoDiscover />

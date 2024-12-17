@@ -387,21 +387,11 @@ export const discoverData = [
 ];
 
 
-// gallerys images
-// export const gallerysImage = [
-//   {
-//     img: "/img/gallerys (1).png"
-//   },
-//   {
-//     img: "/img/gallerys (2).png"
-//   },
-//   {
-//     img: "/img/gallerys (3).png"
-//   },
-//   {
-//     img: "/img/gallerys (4).png"
-//   },
-//   {
-//     img: "/img/gallerys (5).png"
-//   },
-// ];
+// rating data
+export const ratingsData = [
+  { rating: 5, percentage: 80 },
+  { rating: 4, percentage: 60 },
+  { rating: 3, percentage: 40 },
+  { rating: 2, percentage: 20 },
+  { rating: 1, percentage: 10 },
+];
