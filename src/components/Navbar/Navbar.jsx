@@ -1,11 +1,16 @@
 // import { navItems } from "../../api";
+import { useLocation } from "react-router-dom";
 import Button from "../shared/Button/Button";
 import Container from "../shared/Container/Container";
 import NavItem from "./NavItem";
 
 const Navbar = () => {
+
+  const loc = useLocation("/");
+  console.log(loc);
+
   return (
-    <nav className="w-full z-50 shadow bg-white">
+    <nav className={`w-full z-50 shadow bg-white`}>
       <div className="border-b">
         <Container>
           {/* Top Navbar */}
@@ -41,23 +46,15 @@ const Navbar = () => {
           </div>
         </Container>
       </div>
+      
       {/* Bottom Navbar */}
-      {/* <section>
+      {/* {
+        !loc && <section>
         <Container>
-          <div className="grid grid-cols-3 md:grid-cols-6 lg:grid-cols-12 gap-6 lg:gap-2 justify-center items-center text-center py-3">
-            {navItems?.map((item, index) => (
-              <NavItem
-                key={index}
-                label={item?.itemName}
-                img={item?.img}
-                link={item?.link}
-              />
-            ))}
-          </div>
+            <NavItem />
         </Container>
-      </section> */}
-
-      {/* Bottom Navbar */}
+      </section>
+      } */}
       <section>
         <Container>
             <NavItem />
