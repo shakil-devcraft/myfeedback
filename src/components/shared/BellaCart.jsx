@@ -1,4 +1,5 @@
 import { bellaSimpleCart } from "../../api";
+import Button from "./Button/Button";
 import Container from "./Container/Container";
 
 const BellaCart = () => {
@@ -39,6 +40,9 @@ const BellaCart = () => {
                             </div>
                         ))
                     }
+                </div>
+                <div className=" flex justify-center items-center my-10">
+                    <Button label="Show more reviews" className="py-2 font-normal md:py-2 rounded-full" />
                 </div>
             </Container>
         </section>
