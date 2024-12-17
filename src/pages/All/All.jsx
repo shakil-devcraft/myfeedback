@@ -61,7 +61,7 @@ const All = () => {
             )}
           </div>
             <div className="mb-10">
-            <Button label="Show more" className="py-2 md:py-2 rounded-full" />
+            <Button label="Show more" className="py-2 font-normal md:py-2 rounded-full" />
             </div>
         </div>
         <div>
