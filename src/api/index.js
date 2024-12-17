@@ -169,4 +169,24 @@ export const latestTrends = [
 ];
 
 
-
+// recents activities data
+export const recentsActivities = [
+  {
+    userImg: "",
+    user: "Leslie sakho",
+    userLocation: "Canada, toronto",
+    date: "09/11/2023",
+    description: "The lorem ipsum is, in printing, a series of meaningless words used temporarily to calibrate a layout.The lorem ipsum is, in printing, a series of meaningless words used temporarily to calibrate a layout. The lorem ipsum is, in printing, a series of meaningless words used temporarily to calibrate a layout.",
+    img: [
+      {
+        pic: "/img/recents-p (1).png"
+      },
+      {
+        pic: "/img/recents-p (2).png"
+      },
+      {
+        pic: "/img/recents-p (2).png"
+      },
+    ]
+  }
+];
