@@ -245,35 +245,49 @@ export const allRestaurants = [
     img: "/img/all-img (1).png",
     title: "The snug",
     description: "The lorem ipsum is, in printing, a series of meaningless words used temporarily to calibrate a layout.",
+    rating: "4.5",
+    views: "654 reviews"
   },
   {
     img: "/img/all-img (2).png",
     title: "Bottega",
     description: "The lorem ipsum is, in printing, a series of meaningless words used temporarily to calibrate a layout.",
+    rating: "4.5",
+    views: "654 reviews"
   },
   {
     img: "/img/all-img (3).png",
     title: "Little Shucker",
     description: "The lorem ipsum is, in printing, a series of meaningless words used temporarily to calibrate a layout.",
+    rating: "4.5",
+    views: "654 reviews"
   },
   {
     img: "/img/all-img (4).png",
     title: "Lokma",
     description: "The lorem ipsum is, in printing, a series of meaningless words used temporarily to calibrate a layout.",
+    rating: "4.5",
+    views: "654 reviews"
   },
   {
     img: "/img/all-img (5).png",
     title: "Starbelly",
     description: "The lorem ipsum is, in printing, a series of meaningless words used temporarily to calibrate a layout.",
+    rating: "4.5",
+    views: "654 reviews"
   },
   {
     img: "/img/all-img (6).png",
     title: "The melt",
     description: "The lorem ipsum is, in printing, a series of meaningless words used temporarily to calibrate a layout.",
+    rating: "4.5",
+    views: "654 reviews"
   },
   {
     img: "/img/all-img (7).png",
     title: "Arabia Nights",
     description: "The lorem ipsum is, in printing, a series of meaningless words used temporarily to calibrate a layout.",
+    rating: "4.5",
+    views: "654 reviews"
   },
 ];
