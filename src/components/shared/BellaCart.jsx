@@ -36,6 +36,7 @@ const BellaCart = () => {
                                             <span className="text-gray-400 text-sm">{date}</span>
                                         </div>
                                     </div>
+                                <p className="md:w-[511px]">{description}</p>
                                 </div>
                             </div>
                         ))
