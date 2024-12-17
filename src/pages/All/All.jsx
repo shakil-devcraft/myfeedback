@@ -1,9 +1,12 @@
+import Container from "../../components/shared/Container/Container";
 
 
 const All = () => {
   return (
     <section>
-      All
+      <Container>
+        All
+      </Container>
     </section>
   );
 };
