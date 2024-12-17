@@ -1,4 +1,5 @@
 import Container from "../../components/shared/Container/Container";
+import MoreInfo from "../../components/shared/MoreInfo";
 import backgroundImage from "/img/bella-bg.png";
 
 const BellaItalia = () => {
@@ -70,6 +71,8 @@ const BellaItalia = () => {
           </div>
         </Container>
       </div>
+
+      <MoreInfo />
     </section>
   );
 };
