@@ -1,3 +1,4 @@
+import AlsoDiscover from "../../components/shared/AlsoDiscover";
 import BellaCart from "../../components/shared/BellaCart";
 import BellaFilter from "../../components/shared/BellaFilter";
 import Container from "../../components/shared/Container/Container";
@@ -77,6 +78,7 @@ const BellaItalia = () => {
       <MoreInfo />
       <BellaFilter />
       <BellaCart />
+      <AlsoDiscover />
     </section>
   );
 };

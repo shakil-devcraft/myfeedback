@@ -359,3 +359,29 @@ export const bellaSimpleCart = [
     location: "Singapore, Little india"
   },
 ];
+
+
+// discover data
+export const discoverData = [
+  {
+    image: "/img/discover-img (1).png",
+    title: "The melt",
+    description: "The lorem ipsum is, in printing, a series of meaningless words used temporarily to calibrate a layout.",
+    rating: "5.0",
+    views: "876 reviews"
+  },
+  {
+    image: "/img/discover-img (2).png",
+    title: "Lokma",
+    description: "The lorem ipsum is, in printing, a series of meaningless words used temporarily to calibrate a layout.",
+    rating: "5.0",
+    views: "876 reviews"
+  },
+  {
+    image: "/img/discover-img (3).png",
+    title: "The snug",
+    description: "The lorem ipsum is, in printing, a series of meaningless words used temporarily to calibrate a layout.",
+    rating: "5.0",
+    views: "876 reviews"
+  },
+];
