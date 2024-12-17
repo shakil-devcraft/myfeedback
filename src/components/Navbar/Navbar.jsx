@@ -1,4 +1,5 @@
 // import { navItems } from "../../api";
+import Button from "../shared/Button/Button";
 import Container from "../shared/Container/Container";
 import NavItem from "./NavItem";
 
@@ -35,9 +36,7 @@ const Navbar = () => {
               <button>
                 <img src="/img/world.png" alt="" />
               </button>
-              <button className="bg-d-color text-white px-4 py-2 rounded-full">
-                MyFeedback for business
-              </button>
+              <Button label="MyFeedback for business" className="bg-d-color text-white px-4 py-2 md:py-2 font-roboto font-normal rounded-full" />
             </div>
           </div>
         </Container>
