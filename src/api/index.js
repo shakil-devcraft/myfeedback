@@ -190,3 +190,49 @@ export const recentsActivities = [
     ]
   }
 ];
+
+
+
+// user data
+export const userData = [
+  {
+    name: "Leslie Sakho",
+    location: "Canada, Toronto",
+    date: "09/11/2023",
+    rating: 5,
+    description:
+      "The lorem ipsum is, in printing, a series of meaningless words used temporarily to calibrate a layout.",
+    images: [
+      // "https://via.placeholder.com/100",
+      "/img/recents-p (1).png",
+      "/img/recents-p (2).png",
+      "/img/recents-p (3).png",
+    ],
+  },
+  {
+    name: "Chris Macari",
+    location: "Singapore",
+    date: "14/09/2023",
+    rating: 4,
+    description:
+      "The lorem ipsum is, in printing, a series of meaningless words used temporarily to calibrate a layout. The lorem ipsum is in printing.",
+    images: [
+      "/img/recents-p (1).png",
+      "/img/recents-p (2).png",
+      "/img/recents-p (3).png",
+    ],
+  },
+  {
+    name: "Jojo Alba",
+    location: "Kuala Lumpur",
+    date: "28/09/2023",
+    rating: 5,
+    description:
+      "The lorem ipsum is, in printing, a series of meaningless words used temporarily to calibrate a layout.",
+    images: [
+      "/img/recents-p (1).png",
+      "/img/recents-p (2).png",
+      "/img/recents-p (3).png",
+    ],
+  },
+];
