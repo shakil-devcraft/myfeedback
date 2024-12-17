@@ -16,7 +16,7 @@ const All = () => {
             <Button
               label="Sort"
               leftIcon={<i className="bx bx-sort-down"></i>}
-              className="font-medium text-l-color text-base bg-transparent rounded-full border-2 py-2 md:py-1 px-4"
+              className="font-medium text-l-color text-base bg-transparent rounded-full border-2 py-2 md:py-1 hover:border-d-color hover:text-d-color transition px-4"
             />
           </div>
 

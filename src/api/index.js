@@ -291,3 +291,71 @@ export const allRestaurants = [
     views: "654 reviews"
   },
 ];
+
+
+// bella simple cart data
+export const bellaSimpleCart = [
+  {
+    img: "",
+    user: "Mei Ling",
+    description: "The lorem ipsum is, in printing, a series of meaningless words used temporarily to calibrate a layout.The lorem ipsum is, in printing, a series of meaningless words used temporarily to calibrate a layout.",
+    date: "29/11/2023",
+    location: "Singapore, Little india"
+  },
+  {
+    img: "",
+    user: "Mei Ling",
+    description: "The lorem ipsum is, in printing, a series of meaningless words used temporarily to calibrate a layout.The lorem ipsum is, in printing, a series of meaningless words used temporarily to calibrate a layout.",
+    date: "29/11/2023",
+    location: "Singapore, Little india"
+  },
+  {
+    img: "",
+    user: "Mei Ling",
+    description: "The lorem ipsum is, in printing, a series of meaningless words used temporarily to calibrate a layout.The lorem ipsum is, in printing, a series of meaningless words used temporarily to calibrate a layout.",
+    date: "29/11/2023",
+    location: "Singapore, Little india"
+  },
+  {
+    img: "",
+    user: "Mei Ling",
+    description: "The lorem ipsum is, in printing, a series of meaningless words used temporarily to calibrate a layout.The lorem ipsum is, in printing, a series of meaningless words used temporarily to calibrate a layout.",
+    date: "29/11/2023",
+    location: "Singapore, Little india"
+  },
+  {
+    img: "",
+    user: "Mei Ling",
+    description: "The lorem ipsum is, in printing, a series of meaningless words used temporarily to calibrate a layout.The lorem ipsum is, in printing, a series of meaningless words used temporarily to calibrate a layout.",
+    date: "29/11/2023",
+    location: "Singapore, Little india"
+  },
+  {
+    img: "",
+    user: "Mei Ling",
+    description: "The lorem ipsum is, in printing, a series of meaningless words used temporarily to calibrate a layout.The lorem ipsum is, in printing, a series of meaningless words used temporarily to calibrate a layout.",
+    date: "29/11/2023",
+    location: "Singapore, Little india"
+  },
+  {
+    img: "",
+    user: "Mei Ling",
+    description: "The lorem ipsum is, in printing, a series of meaningless words used temporarily to calibrate a layout.The lorem ipsum is, in printing, a series of meaningless words used temporarily to calibrate a layout.",
+    date: "29/11/2023",
+    location: "Singapore, Little india"
+  },
+  {
+    img: "",
+    user: "Mei Ling",
+    description: "The lorem ipsum is, in printing, a series of meaningless words used temporarily to calibrate a layout.The lorem ipsum is, in printing, a series of meaningless words used temporarily to calibrate a layout.",
+    date: "29/11/2023",
+    location: "Singapore, Little india"
+  },
+  {
+    img: "",
+    user: "Mei Ling",
+    description: "The lorem ipsum is, in printing, a series of meaningless words used temporarily to calibrate a layout.The lorem ipsum is, in printing, a series of meaningless words used temporarily to calibrate a layout.",
+    date: "29/11/2023",
+    location: "Singapore, Little india"
+  },
+];
