@@ -2,6 +2,7 @@ import AlsoDiscover from "../../components/shared/AlsoDiscover";
 import BellaCart from "../../components/shared/BellaCart";
 import BellaFilter from "../../components/shared/BellaFilter";
 import Container from "../../components/shared/Container/Container";
+import Gallerys from "../../components/shared/Gallerys";
 import MoreInfo from "../../components/shared/MoreInfo";
 import backgroundImage from "/img/bella-bg.png";
 
@@ -74,7 +75,7 @@ const BellaItalia = () => {
           </div>
         </Container>
       </div>
-
+      <Gallerys />
       <MoreInfo />
       <BellaFilter />
       <BellaCart />

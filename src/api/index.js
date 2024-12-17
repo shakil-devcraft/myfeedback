@@ -385,3 +385,23 @@ export const discoverData = [
     views: "876 reviews"
   },
 ];
+
+
+// gallerys images
+// export const gallerysImage = [
+//   {
+//     img: "/img/gallerys (1).png"
+//   },
+//   {
+//     img: "/img/gallerys (2).png"
+//   },
+//   {
+//     img: "/img/gallerys (3).png"
+//   },
+//   {
+//     img: "/img/gallerys (4).png"
+//   },
+//   {
+//     img: "/img/gallerys (5).png"
+//   },
+// ];
